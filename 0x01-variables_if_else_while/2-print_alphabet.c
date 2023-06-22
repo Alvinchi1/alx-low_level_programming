@@ -1,13 +1,8 @@
-#include <stdio.h>
-/*
- *
- * Main - main block
- *
- * description: use 'putchar' function to print alphabets in lower case.
- *
- * Return (0)
- * 
- */
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 
 {

@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-/* Description: describes n */
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Description: 'the program's description'
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
@@ -11,10 +13,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
+	{
 		printf("%i is positive\n", n);
+	}
 	else if (n == 0)
+	{
 		printf("%i is zero\n", n);
-	else if (n < 0)
+	}
+	else
+	{
 		printf("%i is negative\n", n);
+	}
 	return (0);
 }
