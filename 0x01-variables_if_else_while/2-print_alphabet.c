@@ -1,20 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Prints the alphabet in lowercase.
+ *
+ * Return: Always 0.
+ */
 int main(void)
-
 {
-	char alpha = 'a';
+	char letter;
 
-	while (alpha < 'z')
-	{
-		putchar(alpha);
-		alpha++;
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
 	putchar('\n');
 
 	return (0);
-
 }
