@@ -11,7 +11,6 @@ int main(void)
 	char *p;
 
 	p = leet(s);
-
 	printf("%s", p);
 	printf("%s", s);
 	return (0);
