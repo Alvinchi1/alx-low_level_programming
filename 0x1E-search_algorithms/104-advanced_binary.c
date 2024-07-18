@@ -9,9 +9,9 @@ int binary_search_recurssion(int *array, int value, size_t low, size_t high);
  *@low: starting index in array
  *@high: end index in array
  *
- * Return: index containing 'value' or -1 if 'value' not found or array is NULL
- */
-int binary_search_recurssion(int *array, int value, size_t low, size_high)
+ * Return: index containing 'value' or -1 if 'value' not found or array is
+ **/
+int binary_search_recurssion(int *array, int value, size_t low, size_t high)
 {
 	size_t mid, i;
 
@@ -38,7 +38,8 @@ int binary_search_recurssion(int *array, int value, size_t low, size_high)
 }
 
 /**
- *advanced search algorithm: searches for value in a sorted array of integers
+ * 
+ *advanced search algorithm: searches for value in a sorted array of int
  *using binary
  *reurns first appearnce of value in array
  *@array: pointer to first element in array
